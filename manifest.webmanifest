@@ -4,13 +4,13 @@
 "short_name": "Chance",
 "lang": "en",
 "description": "ok",
-"start_url": "./LastChance",
+"start_url": "./",
 "background_color": "#4285f4",
 "theme_color": "#4285f4",
 "dir": "ltr",
 "display": "standalone",
 "orientation": "any",
-"scope": "/LastChance/",
+"scope": "/LastChance/tree/master/icon/",
 
   
 "icons": [
