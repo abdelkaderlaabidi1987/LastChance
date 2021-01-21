@@ -3,8 +3,8 @@
   "name": "Last",
   "short_name": "Chance",
   "theme_color": "#4285f4",
-  "start_url": "/index.html",
- 
+  "start_url": "/LastChance//index.html",
+  "scope": "/LastChance/index.html",
   "display": "standalone",
   "orientation":"portrait-primary",
   "icons": [
