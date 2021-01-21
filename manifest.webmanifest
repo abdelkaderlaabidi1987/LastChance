@@ -3,9 +3,10 @@
   "name": "Last",
   "short_name": "Chance",
   "theme_color": "#4285f4",
-  "start_url": "./",
-  "scope": "/LastChance/",
+  "start_url": "/index.html",
+ 
   "display": "standalone",
+  "orientation":"portrait-primary",
   "icons": [
     {
      "src": "icon/android-icon-192x192-dunplab-manifest-28617.png",
