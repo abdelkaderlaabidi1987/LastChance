@@ -1,12 +1,15 @@
 self.addEventListener('install', evt=>{
-    console.log('service worker has been installed');
+    console.log('evt');
                 
 });
 
 self.addEventListener('activate', evt => {
-    console.log('service worker has been activeted');
+    console.log('evt');
 });
 
 self.addEventListener('fetch', evt=>{
-    
+    if (!navigator.online){
+    	evt.respondWith(new Response('pas dz zamala ya szamamalka'))
+    }
+    console.log(evt.request.url);
 });
