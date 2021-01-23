@@ -9,7 +9,7 @@ self.addEventListener('activate', evt =>{
 
 self.addEventListener('fetch', evt=>{
     if (!navigator.online){
-    	evt.respondWith(new Response('pas dz zamala ya szamamalka'))
+    	evt.respondWith(new Response('Impoooooooosible!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!'))
     }
     console.log(evt.request.url);
 });
