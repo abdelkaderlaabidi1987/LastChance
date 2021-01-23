@@ -3,7 +3,7 @@ self.addEventListener('install', evt=>{
                 
 });
 
-self.addEventListener('activate', evt => {
+self.addEventListener('activate', evt =>{
     console.log('evt');
 });
 
@@ -14,7 +14,7 @@ self.addEventListener('fetch', evt=>{
     console.log(evt.request.url);
 });
 
-butInstall.addEventListener('click', () => {
+butInstall.addEventListener('click', evt=>{
   console.log('👍', 'butInstall-clicked');
   const promptEvent = window.deferredPrompt;
   if (!promptEvent) {
